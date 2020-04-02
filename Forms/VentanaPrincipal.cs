@@ -36,5 +36,10 @@ namespace Forms
             Ventana02 ventana = new Ventana02();
             ventana.Show();
         }
+
+        public void cambiaNombre(String texto)
+        {
+            label1.Text = texto;
+        }
     }
 }
